@@ -15,7 +15,7 @@ func main() {
 	fmt.Scan(&limit)
 
 	// Calculation of Number e with factorial
-	for i := 0; i < limit; i++ { // 17 Iterations for ê
+	for i := 0; i <= limit; i++ { // 17 Iterations for ê
 		f = 1
 		for j := i; j > 1; j-- {
 			f *= float64(j)
