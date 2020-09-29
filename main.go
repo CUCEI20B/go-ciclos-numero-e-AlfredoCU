@@ -8,7 +8,7 @@ import (
 func main() {
 	// Declaration of variable
 	var e float64
-	var f float64 = 1
+	var f float64
 	var limit int
 
 	// Input
